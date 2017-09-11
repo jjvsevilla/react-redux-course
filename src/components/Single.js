@@ -1,4 +1,7 @@
 import React, { PureComponent } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import * as commentActions from '../actions/commentActions';
 import styled from 'styled-components';
 
 const SingleWrapper = styled.div`
@@ -26,4 +29,11 @@ class Single extends PureComponent {
   }
 }
 
-export default Single;
+export default connect(
+  state => ({
+    comments: state.comments
+  }),
+  dispatch => (
+    bindActionCreators(commentActions, dispatch)
+  )
+)(Single);

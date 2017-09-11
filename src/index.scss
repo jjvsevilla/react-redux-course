@@ -1,11 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-	font-size: 10px;
+	font-size: 16px;
   font-family: sans-serif;
 
   body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
+    p {
+      line-height: 1.5;
+    }
+
+    button, .button {
+      border: 2px solid #f2f2f2;
+      background: none;
+      flex-basis: 48%;
+      display: inline-block;
+      line-height: 2;
+      text-decoration: none;
+      padding: 5px;
+      text-align: center;
+      // font-size: 15px;
+      color: #125688;
+      transition: all 0.2s;
+      box-sizing: padding-box;
+    }
+
+    button:hover, .button:hover,
+    button:focus, .button:focus {
+      border-color: #125688;
+      outline: 0;
+    }
+
   }
 }
 
