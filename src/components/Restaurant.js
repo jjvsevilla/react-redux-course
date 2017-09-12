@@ -1,5 +1,8 @@
 import React, { PureComponent} from 'react';
 import { Link } from 'react-router-dom';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import * as likeActions from '../actions/likeActions';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import styled from 'styled-components';
 
@@ -142,4 +145,9 @@ class Restaurant extends PureComponent {
   }
 }
 
-export default Restaurant;
+export default connect(
+  state => ({}),
+  dispatch => (
+    bindActionCreators(likeActions, dispatch)
+  )
+)(Restaurant);

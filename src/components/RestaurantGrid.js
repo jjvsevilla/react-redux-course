@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as likeActions from '../actions/likeActions';
 import Restaurant from './Restaurant';
 import { media } from './Media';
 
@@ -36,10 +34,10 @@ const RestaurantGridWrapper = styled.div`
 class RestaurantGrid extends PureComponent {
 
   getRestaurants = () => {
-    const { posts, comments, increment } = this.props;
+    const { posts, comments } = this.props;
 
     return posts.map((post, i) =>
-      <Restaurant key={i} i={i} post={post} comments={comments[post.code]} increment={increment} />)
+      <Restaurant key={i} i={i} post={post} comments={comments[post.code]} />)
   }
 
   render() {
@@ -55,8 +53,5 @@ export default connect(
   state => ({
     posts: state.posts,
     comments: state.comments
-  }),
-  dispatch => (
-    bindActionCreators(likeActions, dispatch)
-  )
+  })
 )(RestaurantGrid);

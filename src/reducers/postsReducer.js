@@ -1,4 +1,4 @@
-import { INCREMENT_LIKES } from '../actions/actionTypes'
+import { INCREMENT_LIKES } from '../actions/actionTypes';
 
 function postsReducer(state = [], action) {
   switch(action.type) {
