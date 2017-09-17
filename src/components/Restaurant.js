@@ -4,7 +4,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as likeActions from '../actions/likeActions';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { media } from '../helpers/media';
 
 const GridFigure = styled.figure`
   &.grid-figure {
@@ -15,6 +16,15 @@ const GridFigure = styled.figure`
     border: 1px solid #d3d3d3;
     background: #fff;
     box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
+
+    ${props => props.isDetail && css`
+      width: 50%;
+      margin: 0 2rem 0 0;
+      border: 0;
+      box-shadow: none;
+	  `}
+
+    ${media.tablet`width: 100%;`}
 
     .grid-photo-wrap {
       position: relative;
@@ -114,9 +124,9 @@ class Restaurant extends PureComponent {
   }
 
   render() {
-    const { post, comments } = this.props;
+    const { post, comments, isDetail } = this.props;
     return (
-      <GridFigure className="grid-figure">
+      <GridFigure className="grid-figure" isDetail={isDetail}>
         <div className="grid-photo-wrap">
           <Link to={`/view/${post.code}`}>
             <img src={post.display_src} alt={post.caption} className="grid-photo" />

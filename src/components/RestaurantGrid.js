@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
-import styled from 'styled-components';
 import { connect } from 'react-redux';
+import styled from 'styled-components';
+import { media } from '../helpers/media';
 import Restaurant from './Restaurant';
-import { media } from './Media';
 
 const RestaurantGridWrapper = styled.div`
   &.photo-grid {
@@ -35,9 +35,8 @@ class RestaurantGrid extends PureComponent {
 
   getRestaurants = () => {
     const { posts, comments } = this.props;
-
     return posts.map((post, i) =>
-      <Restaurant key={i} i={i} post={post} comments={comments[post.code]} />)
+      <Restaurant key={i} i={i} post={post} comments={comments[post.code]} isDetail={false} />)
   }
 
   render() {

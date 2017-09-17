@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { media } from '../helpers/media';
 
 const HeaderWrapper = styled.h1`
   font-family: billabong, 'billabongregular';
@@ -10,6 +11,11 @@ const HeaderWrapper = styled.h1`
   margin: 2rem 0;
   letter-spacing: -1px;
   text-shadow: 0px 4px 0 rgba(18,86,136,0.11);
+  transition: .8s font-size;
+
+  ${media.desktop`font-size: 10rem;`}
+  ${media.tablet`font-size: 7rem;`}
+  ${media.phone`font-size: 5rem;`}
 
   a {
     color: #125688;
