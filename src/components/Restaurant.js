@@ -59,12 +59,12 @@ const GridFigure = styled.figure`
       }
 
       .likes-heart {
-        background: url(http://f.cl.ly/items/3Y373q2Q3J3Y1j203n0m/Bitmap-3.png) center no-repeat;
+        background: url(https://emojipedia-us.s3.amazonaws.com/thumbs/120/microsoft/94/sparkling-heart_1f496.png) center no-repeat;
         background-size: contain;
         font-size: 2rem;
         padding: 1rem;
         position: absolute;
-        color: #125688;
+        color: #000;
         left: 50%;
         top: 50%;
         pointer-events: none;
@@ -85,31 +85,6 @@ const GridFigure = styled.figure`
 
         .likes {
           cursor: pointer;
-        }
-
-        .comment-count {
-
-          .speech-bubble {
-            width: 1.5rem;
-            height: 1.25rem;
-            background: #125688;
-            display: inline-block;
-            border-radius: 50%;
-            position: relative;
-
-            :after {
-              display: inline-block;
-              position: absolute;
-              content: '';
-              width: 0;
-              height: 0;
-              border-style: solid;
-              border-width: 0 1.25rem 1.25rem 0;
-              border-color: transparent #125688 transparent transparent;
-              top: 30%;
-              left: 0;
-            }
-          }
         }
       }
     }
@@ -142,11 +117,9 @@ class Restaurant extends PureComponent {
         <figcaption className="grid-figure-caption">
           <p>{post.caption}</p>
           <div className="control-buttons">
-            <button onClick={this.sendLike} className="likes">&#10084; {post.likes}</button>
+            <button onClick={this.sendLike} className="likes">💖 {post.likes}</button>
             <Link to={`/view/${post.code}`} className="button">
-              <span className="comment-count">
-                &#10084; {comments ? comments.length : 0 }
-              </span>
+              <span>💬 {comments ? comments.length : 0 }</span>
             </Link>
           </div>
         </figcaption>

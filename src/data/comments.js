@@ -1,300 +1,123 @@
 const comments = {
   "BAhvZrRwcfu":[
     {
-      "text":"Totally need to try this.",
+      "text":"Como siempre la comida muy rica! 🍹🍗",
       "user": "heavymetaladam"
     }
   ],
   "BAcyDyQwcXX":[
     {
-      "text":"Wes. WE should have lunch.",
-      "user": "jdaveknox"
+      "text":"Tiene una carta amplia con todo tipo de especialidades peruanas. 🍹",
+      "user": "Almudena"
     },
     {
-      "text":"#adults",
-      "user": "jdaveknox"
+      "text":"Llegar de noche al Restaurante La Rosa Náutica, es una experiencia inolvidable.",
+      "user": "sibely"
     },
     {
-      "text":"@jdaveknox yes!",
-      "user": "wesbos"
+      "text":"El servicio, la comida y el ambiente excelente y muy recomendable!! 🍗👌",
+      "user": "Vicky Frias"
     },
     {
-      "text":"😍 love Hamilton!",
-      "user": "willowtreemegs"
+      "text":"Simplemente espectacular un palacio para el paladar y sentidos",
+      "user": "apoguerrero"
     }
   ],
   "BAPIPRjQce9":[
     {
-      "text":"Those are cute! They're like silver dollar pancakes.",
+      "text":"Buena comida",
       "user": "rrsimonsen"
     },
     {
-      "text":"I like baby pancakes but gluten free please!! I'll bring the coffee!! See you in 6 days!!!!!! 😝😛😝♥️",
+      "text":"Uno de los mejores. 😝😛😝",
       "user": "terzisn"
     },
     {
-      "text":"... and apparently growing baby. 👀. Yum.",
+      "text":"Rica comida. Lugar cómodo. Variedad de platos y precios accesibles.",
       "user": "henrihelvetica"
     },
     {
-      "text":"@wesbos 👍 my daughter is a pancake eating machine!",
+      "text":"Excelente Lomo !!!",
       "user": "brentoage"
     },
     {
-      "text":"Nice stove!",
+      "text":"Muy bueno el pollo a la brasa 🍗🍗🍗",
       "user": "haaps"
-    },
-    {
-      "text":"Genius bottle use! Do you make a single batch of batter or make a lot and freeze it?",
-      "user": "gobananna"
-    },
-    {
-      "text":"@gobananna I just made a batch and put in in a FIFO bottle. Keeps in the fridge for a few days.",
-      "user": "wesbos"
-    },
-    {
-      "text":"@haaps thanks! It's a Jenn air - so nice to cool with!",
-      "user": "wesbos"
-    },
-    {
-      "text":"Where would you go and for how long, if you had location freedom? - Greg 🌎",
-      "user": "world_greg"
     }
   ],
   "BAF_KY4wcRY":[
     {
-      "text":"Looking great Wes! I'd like to see the other side of the room too.",
+      "text":"El lugar muy acogedor y la comida espectacular. 😎",
       "user": "axcdnt"
     },
     {
-      "text":"I've never caught your podcast. Have one right? Btw - they don't have a Canary pillow? 😝",
+      "text":"Tiene espacios privados y es corcho libre. No tiene buen estacionamiento, pero hay ballet parking",
       "user": "henrihelvetica"
     },
     {
-      "text":"Great way to start the year.",
+      "text":"Bueno, delicioso a veces los cortes son pequeños y mucha grasa pero te lo cambian. ",
       "user": "pmgllc"
     },
     {
-      "text":"Are there 4k monitors?",
+      "text":"Uno de los mejores restaurantes de carnes en Lima.",
       "user": "alexbaumgertner"
     },
     {
-      "text":"@axcdnt that is where I put all the junk. I'll have to clean that side too @henrihelvetica no podcast yet! @pmgllc ohh yeah! @alexbaumgertner yep - the main one is 4K - I'm loving it",
+      "text":"Es un sitio muy rico de carnes. ¡Recomendable! 🍗🍖🥓",
       "user": "wesbos"
     },
     {
-      "text":"That chrome pillow. 😉",
+      "text":"Un buen lugar agradable con buena atención 👍👍👍",
       "user": "imagesofthisandthat"
     },
-    {
-      "text":"@wesbos is that the Dell 4k? The MacBook Pro powers it well? I also have a Retina™ / x1 setup as well. Very handy.",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"#minimalsetups",
-      "user": "wesbos"
-    }
   ],
   "_4jHytwcUA":[
     {
-      "text":"that is the sound of success!",
+      "text":"La comida buenísima (pedí yakitori de pollo, hiyashi chuka, gyozas, katsukare y yakimeshi) 🍜🍛🍱😍",
       "user": "mdxprograms"
     }
   ],
   "_zbaOlQcbn":[
     {
-      "text":"Did she get to eat her letter?",
+      "text":"El Happy Hour lo es todo! 🍻🍻🍻",
       "user": "pathiebert"
     },
     {
-      "text":"Nope @pathiebert! She has too much teeth now (8) so that would definitely be her first cavity 😉",
+      "text":"La triple bacon stackhouse burger es demasiado!!! 🥓🥓🥓",
       "user": "kaitbos"
     }
   ],
   "_rmvQfQce8":[
     {
-      "text":"A+",
+      "text":"Recomendado para los after office! 🥂🍸🍔",
       "user": "mrjoedee"
     },
     {
-      "text":"I recently went to a ramen place in Philly. So amazing!",
+      "text":"Me encanta el Ribs & Chicken Combo!! 🍗🍖🥓",
       "user": "jrtashjian"
     }
   ],
-  "_ep9kiQcVy":[
-    {
-      "text":"All bundled up!  Where ya goin?",
-      "user": "sophie_and_sadie"
-    }
-  ],
-  "_XpJcrwcSn":[
-    {
-      "text":"Super congrats! That's wicked cool and looks great.",
-      "user": "pmgllc"
-    },
-    {
-      "text":"real live paper magazine? woah haha. flex box is awesome though, could rage quit without it",
-      "user": "tjholowaychuk2"
-    },
-    {
-      "text":"@tjholowaychuk2 haha yes! Old school stylez!",
-      "user": "wesbos"
-    }
-  ],
-  "_KnU7MwceA":[
-
-  ],
-  "_HMejJQcY5":[
-    {
-      "text":"👌",
-      "user": "t_volpe"
-    },
-    {
-      "text":"Nice shot, mister!",
-      "user": "imagesofthisandthat"
-    }
-  ],
-  "_Fq2zmwcaz":[
-    {
-      "text":"😍",
-      "user": "melsariffodeen"
-    },
-    {
-      "text":"Very cool!",
-      "user": "ka11away"
-    }
-  ],
-  "_A2r0aQcfD":[
-    {
-      "text":"Uhu!",
-      "user": "lucascaixeta"
-    }
-  ],
-  "1rhFawccs":[
-    {
-      "text":"What's your lighting source?",
-      "user": "seth_mcleod"
-    },
-    {
-      "text":"And what are you using for XLR mix adapter? I found a big price jump between $55 range and $170 range.",
-      "user": "pmgllc"
-    },
-    {
-      "text":"I still need a desk boom for mine mic. Nice upgrades",
-      "user": "stolinski"
-    }
-  ],
-  "pjx-gQcVi":[
-
-  ],
-  "oTZ0zQcWt":[
-    {
-      "text":"Love the coat! Where's it from? Lol",
-      "user": "_lindersss"
-    }
-  ],
-  "mxKQoQcQh":[
-
-  ],
   "hZh6IQcfN":[
     {
-      "text":"What do we gotta do to get some :)? @wesbos",
+      "text":"Muy bueno el pollo 🍗😍",
       "user": "jonasbad"
     },
     {
-      "text":"Might drop by today - real quick. Trade you an illegal pin for these? Lol. @wesbos",
+      "text":"Las parrillas son lo máximo!! 🍖🥓",
       "user": "henrihelvetica"
     },
     {
-      "text":"I'm with @jonasbad on this. What we gotta do? :D",
+      "text":"Don tito es buenazo!!!! 🍗🍗🍗",
       "user": "datamoshr"
     },
-    {
-      "text":"@jonasbad @datamoshr I'll post them up on my blog soon!",
-      "user": "wesbos"
-    },
-    {
-      "text":"Want",
-      "user": "kamuelafranco"
-    },
-    {
-      "text":"want!",
-      "user": "josemanuelxyz"
-    },
-    {
-      "text":"#Top",
-      "user": "gabrielvieira.me"
-    }
-  ],
-  "fasqlQceO":[
-    {
-      "text":"Where's lux at? 💤?",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"Love this house during the holidays! And all other times of the year...",
-      "user": "danielleplas"
-    }
-  ],
-  "VBgtGQcSf":[
-    {
-      "text":"@dogsandbrew",
-      "user": "likea_bos"
-    },
-    {
-      "text":"Next on my list!",
-      "user": "tomwalsham"
-    },
-    {
-      "text":"Is that from collective arts ?",
-      "user": "trevorb_91"
-    }
-  ],
-  "FpTyHQcau":[
-    {
-      "text":"@kaitbos  that vest!!! 😍",
-      "user": "courtneyeveline"
-    },
-    {
-      "text":"I just love her! @kaitbos",
-      "user": "kalibrix"
-    },
-    {
-      "text":"@courtneyeveline I know! My friend gave it to her and I wanted a matching one but only Lux can pull it off. She's so fancy 😉",
-      "user": "kaitbos"
-    },
-    {
-      "text":"Char has that vest!!! Super cute!",
-      "user": "jennlensink"
-    },
-    {
-      "text":"You'll have to meet her soon @kalibrix!!",
-      "user": "kaitbos"
-    },
-    {
-      "text":"Haha @kaitbos so true, babies these days are sooo stylish. 😎",
-      "user": "courtneyeveline"
-    },
-    {
-      "text":"JavaScript 😄😆🙋",
-      "user": "lucascaixeta"
-    },
-    {
-      "text":"That hoodie is amazing! Where did you get it?",
-      "user": "br11x"
-    },
-    {
-      "text":"@br11x I did a teespring a few months ago - maybe I'll do another one soon",
-      "user": "wesbos"
-    }
   ],
   "B3eiIwcYV":[
     {
-      "text":"If you get in the mood for authentic Italian pizza, check out @backspaceaustin - it's👌🏻",
+      "text":"Muy bueno, excelente atención y muy buena variedad de platillos para disfrutar. 👌👌👌",
       "user": "dessie.ann"
     },
     {
-      "text":"😱 jealous",
+      "text":"Es un restaurante buffet con una amplia variedad de platos: marino, asiático, criollo, pastas, etc. 🍣🍤🍥🍶🍵",
       "user": "jenngbrewer"
     }
   ]

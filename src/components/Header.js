@@ -1,7 +1,22 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { media } from '../helpers/media';
+
+const floating = keyframes`
+  from {
+    transform: translate(0, 0px) rotateY(-20deg);
+    text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+  }
+  65% {
+    transform: translate(0, 15px) rotateY(10deg) rotateX(10deg);
+    text-shadow: -10px -10px 3px rgba(0,0,0,0.15);
+  }
+  to {
+    transform: translate(0, 0px) rotateY(-20deg);
+    text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+  }
+`;
 
 const HeaderWrapper = styled.h1`
   font-family: billabong, 'billabongregular';
@@ -20,6 +35,10 @@ const HeaderWrapper = styled.h1`
   a {
     color: #125688;
     text-decoration: none;
+
+    position: relative;
+    display: inline-block;
+    animation: ${floating} 5s ease-in-out infinite;
 
     &:focus {
       outline: 0;
